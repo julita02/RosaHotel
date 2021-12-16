@@ -1,4 +1,6 @@
-
+#menu-container{
+  display: block;
+}
 
 #flower{
   display: block;
@@ -54,18 +56,7 @@
     }
   }
 
-  @media (max-width: 480px) {
-  
-    #image1 {
-      width: 414px;
-      background-size: cover;  
-      background-position: center;            
-      }
-    }
-
- 
-
-    #image2{
+      #image2{
       position: relative;
    
       background-image:url('../img/couple.png' ); 
@@ -82,15 +73,7 @@
         background-size: cover;
       }
     }    
-    @media (max-width: 480px) {
-  
-      #image2 {
-        width: 414px;
-        background-position: center;
-        background-size: 670px; 
-                  
-        }
-      }
+    
     
       
       #image3{
@@ -109,20 +92,13 @@
        
         }  }
 
-        @media (max-width: 480px) {
-  
-          #image3 {
-            width: 414px;
-            background-size: cover;  
-                  
-            }
-          }
+        
         
   .square {  
     position:absolute;  
-    font-size: 28pt;
-    margin: 12rem 0 0rem 8rem;
-    width:265.95px;
+ 
+    margin: 12rem 0 0rem 12rem;
+      width:265.95px;
     height: 265.95px;  
     display: flex;
     justify-content: center;
@@ -131,14 +107,11 @@
     background-color: rgba(255, 255, 255,08); 
     
   }
+ 
+ 
 
-  @media (max-width: 480px) {
-  
-    .square{
-      margin: 12rem 0 0rem 5rem;
-                
-      }
-    }
+
+ 
   
   #image1:hover .square{
     background-color: #d94d39;
@@ -158,40 +131,41 @@
   }
   
   .perfect{
-    height:800px; 
-    
+    height:800px;     
     padding-top: 130.87px;
   }
+
+ 
+
+  
   .reservation{
     padding-top: 10rem;
-      background-color:#d94d39 ;
-       
+      background-color:#d94d39 ;       
       height: 55rem;
       color: white;
-      font-size:20pt;
-    
+   
+    visibility: visible !important;
     }
+   
 
-
-    @media (max-width: 480px) {
-  
-      .reservation {
-                   
-        height: 450px;}
-      }
     
-
-
-
 
     .boat{
       height: 658px; 
-      background-repeat: no-repeat;
-     
-      color: white;
-      
+      background-repeat: no-repeat;     
+      color: white;      
       background:  linear-gradient(rgba(0, 0, 0, 0.564), rgba(0,0,0,0.5)),
       url('../img/boat.png' );
       background-position: 50% center; 
       background-size: cover;
+     padding-top: 165px; 
+      padding-bottom: 265px;
     }
+
+    .footer-block{        
+      background-color:#ffffff ;       
+      height: 850px;
+      color: white;     
+    
+    } 
+

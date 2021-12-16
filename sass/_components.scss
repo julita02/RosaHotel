@@ -1,3 +1,9 @@
+
+#color {
+color: white;
+}
+
+
 .max-font{
   font-size:60pt;
  padding-top: 240px;
@@ -9,17 +15,30 @@
   margin-bottom: 240px;
 
 }
+ .min-font{
+   font-size:16pt;
+ }
+.l-font{
+  font-size:60pt;}
+  .md-font{
+    font-size:40pt;}
+  .s-font{
+    font-size:20pt;
 
-  @media (max-width: 480px) {
-    .max-font {
-      padding-top: 120px;
-      
-      font-size:30pt;}
+  }  
+ .xs-font{
+   font-size:12pt;
+ }
+ .s2-font{
+  font-size:17pt;
 
-    .mid-font{
-      margin-bottom: 120px;
-      font-size:20pt;}
-    }
+ }
+ .square-font{
+   font-size:25pt;
+
+ }
+
+  
 
 .logo{
  margin-left: 3rem; 
@@ -73,14 +92,14 @@ transition: opacity .15s ease;
   color: #d94d39;  
   }
   .input-class{
-    width: 14rem; 
+    width: 12rem; 
     background-color: #d94d39; 
     border:transparent; 
     color: white;
     font-weight: bold;
   }
   .input-class2{
-    width: 5rem; 
+    width: 4rem; 
     background-color: #d94d39; 
     border:transparent; 
     color: white;
@@ -93,10 +112,14 @@ transition: opacity .15s ease;
     margin-right: 1rem;
    
   }
+
+ 
   
   .textArea{
-    width: 40.5rem;
-    height: 3rem;
+    width: 43.5rem;
+
+    height: 1rem;
+     margin-top: 2rem;
     background-color: #d94d39; 
     border:transparent; 
     color: white;
@@ -104,6 +127,7 @@ transition: opacity .15s ease;
     border-bottom: solid  rgb(255, 255, 255) 1px;
    
     }
+    
 
   .social{
     margin-right: 7px; 

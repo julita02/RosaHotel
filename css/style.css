@@ -1,3 +1,6 @@
+#color {
+  color: white; }
+
 .max-font {
   font-size: 60pt;
   padding-top: 240px; }
@@ -6,13 +9,26 @@
   font-size: 40pt;
   margin-bottom: 240px; }
 
-@media (max-width: 480px) {
-  .max-font {
-    padding-top: 120px;
-    font-size: 30pt; }
-  .mid-font {
-    margin-bottom: 120px;
-    font-size: 20pt; } }
+.min-font {
+  font-size: 16pt; }
+
+.l-font {
+  font-size: 60pt; }
+
+.md-font {
+  font-size: 40pt; }
+
+.s-font {
+  font-size: 20pt; }
+
+.xs-font {
+  font-size: 12pt; }
+
+.s2-font {
+  font-size: 17pt; }
+
+.square-font {
+  font-size: 25pt; }
 
 .logo {
   margin-left: 3rem; }
@@ -61,14 +77,14 @@
   color: #d94d39; }
 
 .input-class {
-  width: 14rem;
+  width: 12rem;
   background-color: #d94d39;
   border: transparent;
   color: white;
   font-weight: bold; }
 
 .input-class2 {
-  width: 5rem;
+  width: 4rem;
   background-color: #d94d39;
   border: transparent;
   color: white;
@@ -80,8 +96,9 @@
   margin-right: 1rem; }
 
 .textArea {
-  width: 40.5rem;
-  height: 3rem;
+  width: 43.5rem;
+  height: 1rem;
+  margin-top: 2rem;
   background-color: #d94d39;
   border: transparent;
   color: white;
@@ -98,6 +115,9 @@
   width: 6.75rem;
   border-bottom: 2px solid #d94d39;
   margin: auto; }
+
+#menu-container {
+  display: block; }
 
 #flower {
   display: block;
@@ -138,12 +158,6 @@
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hand.png");
     background-repeat: no-repeat; }
 
-@media (max-width: 480px) {
-  #image1 {
-    width: 414px;
-    background-size: cover;
-    background-position: center; } }
-
 #image2 {
   position: relative;
   background-image: url("../img/couple.png");
@@ -157,12 +171,6 @@
     background-repeat: no-repeat;
     background-size: cover; }
 
-@media (max-width: 480px) {
-  #image2 {
-    width: 414px;
-    background-position: center;
-    background-size: 670px; } }
-
 #image3 {
   position: relative;
   background-image: url("../img/rosabed.gif");
@@ -175,15 +183,9 @@
     background-repeat: no-repeat;
     background-size: cover; }
 
-@media (max-width: 480px) {
-  #image3 {
-    width: 414px;
-    background-size: cover; } }
-
 .square {
   position: absolute;
-  font-size: 28pt;
-  margin: 12rem 0 0rem 8rem;
+  margin: 12rem 0 0rem 12rem;
   width: 265.95px;
   height: 265.95px;
   display: flex;
@@ -191,10 +193,6 @@
   align-items: center;
   color: black;
   background-color: white; }
-
-@media (max-width: 480px) {
-  .square {
-    margin: 12rem 0 0rem 5rem; } }
 
 #image1:hover .square {
   background-color: #d94d39;
@@ -217,11 +215,7 @@
   background-color: #d94d39;
   height: 55rem;
   color: white;
-  font-size: 20pt; }
-
-@media (max-width: 480px) {
-  .reservation {
-    height: 450px; } }
+  visibility: visible !important; }
 
 .boat {
   height: 658px;
@@ -229,4 +223,72 @@
   color: white;
   background: linear-gradient(rgba(0, 0, 0, 0.564), rgba(0, 0, 0, 0.5)), url("../img/boat.png");
   background-position: 50% center;
-  background-size: cover; }
+  background-size: cover;
+  padding-top: 165px;
+  padding-bottom: 265px; }
+
+.footer-block {
+  background-color: #ffffff;
+  height: 850px;
+  color: white; }
+
+@media (max-width: 480px) {
+  #color {
+    color: black; }
+  .max-font {
+    padding-top: 120px;
+    font-size: 30pt; }
+  .l-font {
+    font-size: 30pt; }
+  .md-font {
+    font-size: 20pt; }
+  .mid-font {
+    margin-bottom: 120px;
+    font-size: 20pt; }
+  .min-font {
+    font-size: 12pt; }
+  .s-font {
+    font-size: 16pt; }
+  .s2-font {
+    font-size: 12pt; }
+  .xs-font {
+    font-size: 12pt; }
+  .square-font {
+    font-size: 22pt; }
+  .res-style {
+    height: 2rem; }
+  .textArea {
+    width: 20.5rem;
+    height: 5px; } }
+
+@media (max-width: 480px) {
+  .boat {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    height: 450px; } }
+
+@media (max-width: 480px) {
+  .footer-block {
+    height: 450px; }
+  .reservation {
+    height: 570px;
+    padding-top: 2rem; }
+  .perfect {
+    height: 480px;
+    padding-top: 100px; }
+  .square {
+    margin: 8rem 0 0rem 5rem; }
+  #image1 {
+    width: 412px;
+    height: 478px;
+    background-size: cover;
+    background-position: center; }
+  #image2 {
+    width: 412px;
+    height: 478px;
+    background-position: center;
+    background-size: 670px; }
+  #image3 {
+    width: 412px;
+    height: 478px;
+    background-size: cover; } }
