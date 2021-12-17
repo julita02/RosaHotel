@@ -44,13 +44,16 @@
     background-image:url('../img/hand.png' ) ; 
     background-repeat: no-repeat;  
     background-size: cover;
-    background-position: center;
+    background-position: left;
     float: left;
     width: 660px;    
     height: 665px;
     &:hover{
       background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/hand.png") ;
-      background-repeat: no-repeat;  
+      background-repeat: no-repeat;         
+      background-size: cover;
+      background-position:bottom;
+      
   
 
     }
@@ -62,15 +65,18 @@
       background-image:url('../img/couple.png' ); 
       background-repeat: no-repeat; 
       background-position: center;
-      background-size: 670px;
-    
-      height: 665px;
+      background-size: 690px;
       width: 660px; 
+      height: 665px;
+    
      
       &:hover{
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/couple.png") ;
         background-repeat: no-repeat;  
+        
         background-size: cover;
+          background-position:bottom;
+      
       }
     }    
     
@@ -81,7 +87,8 @@
  
         background-image:  url('../img/rosabed.gif' ) ; 
         background-repeat: no-repeat;
-        background-size: 80rem;
+        background-size: 160rem;
+        background-position:center;
         height: 665px;
         width: 660px; 
     
@@ -95,9 +102,8 @@
         
         
   .square {  
-    position:absolute;  
- 
-    margin: 12rem 0 0rem 12rem;
+    position:absolute;   
+    margin: 12rem 8rem;
       width:265.95px;
     height: 265.95px;  
     display: flex;
@@ -108,11 +114,6 @@
     
   }
  
- 
-
-
- 
-  
   #image1:hover .square{
     background-color: #d94d39;
     color: white;
@@ -135,10 +136,15 @@
     padding-top: 130.87px;
   }
 
- 
-
   
   .reservation{
+    padding-top: 10rem;
+      background-color:#d94d39 ;       
+      height: 55rem;
+      color: white;
+   }
+
+   .reservation-block{
     padding-top: 10rem;
       background-color:#d94d39 ;       
       height: 55rem;
@@ -146,6 +152,8 @@
    
     visibility: visible !important;
     }
+   
+
    
 
     

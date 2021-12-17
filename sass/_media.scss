@@ -1,19 +1,26 @@
 @media (max-width: 480px) {
+  .center-text{
+    text-align: center;
+  }
+
+  
+  
   
   #color{
     color: black;
               
     }
- 
+    .r-font{
+      font-size: 30pt;
+    }
     .max-font {
       padding-top: 120px;
       
       font-size:30pt;}
-      .l-font { 
-        
+      .l-font {         
         font-size:30pt;}
 
-        .md-font{
+                .md-font{
           font-size:20pt;}
 
     .mid-font{
@@ -50,7 +57,7 @@
         height: 5px;
       }
       
-     }    
+     } 
             
     @media (max-width: 480px) {  
      .boat {                   
@@ -71,11 +78,18 @@
         
       }
 
+      .reservation-block{                   
+        height: 450px;
+        padding-top: 10rem;
+        
+      }
+
     .perfect {                   
     height: 480px;
     padding-top: 100px;}        
        
-  
+    }
+    @media (max-width: 480px) { 
     .square{
      margin: 8rem 0 0rem 5rem;
                 
@@ -98,12 +112,12 @@
      #image3 {
         width: 412px;
        height: 478px;
-       background-size: cover;  
+       background-size: cover;        
         }
-               
-  
-    
-      
-  
+            
+        }
+
+        
+        
+
        
-        }

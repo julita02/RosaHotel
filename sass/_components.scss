@@ -1,8 +1,12 @@
 
+
 #color {
 color: white;
 }
 
+.r-font{
+  font-size: 40pt;
+}
 
 .max-font{
   font-size:60pt;
@@ -35,11 +39,7 @@ color: white;
  }
  .square-font{
    font-size:25pt;
-
  }
-
-  
-
 .logo{
  margin-left: 3rem; 
  
@@ -49,10 +49,12 @@ color: white;
   opacity: 0.5;
 transition: opacity .15s ease;
 }
+
 #down-item{
-  background-color:lightgray; 
+  
   color:black; 
   &:hover{
+    background-color:lightgray; 
     color:#d94d39 ;
   }
 }
@@ -112,12 +114,18 @@ transition: opacity .15s ease;
     margin-right: 1rem;
    
   }
+  .canvas-style{
+    border-bottom: solid  rgb(255, 255, 255) 1px; 
+    margin: 0rem 0rem 1rem 1rem;
+  
+    height: 2rem;
+   
+  }
 
  
   
   .textArea{
     width: 43.5rem;
-
     height: 1rem;
      margin-top: 2rem;
     background-color: #d94d39; 

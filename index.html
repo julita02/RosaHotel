@@ -55,18 +55,19 @@
             </div>
 
             <div class="offcanvas-body ">
-              <ul class=" navbar-nav ms-auto ">
-                <li class="nav-item dropdown ">
+              <ul class=" navbar-nav ms-auto text-center ">
+                <li class="nav-item dropdown  ">
                   <a class="nav-link " data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"
                     id="color">
                     MEET US</a>
 
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">A family business</a></li>
-                    <li><a class="dropdown-item  " href="#">The good old way</a>
+                  <ul class="dropdown-menu ">
+                    <li><a class=" dropdown-item " href="#" id="down-item">A family business</a>
                     </li>
-                    <li><a class="dropdown-item" href="#">How to reach </a></li>
-                    <li><a class="dropdown-item" href="#">Contacts</a></li>
+                    <li><a class="dropdown-item  " href="#" id="down-item">The good old way</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#" id="down-item">How to reach </a></li>
+                    <li><a class="dropdown-item" href="#" id="down-item">Contacts</a></li>
                   </ul>
                 </li>
                 <li class=" nav-item">
@@ -193,18 +194,106 @@
     </div>
 
   </div>
-  <div class=" reservation" data-bs-toggle="reservation" id="reservation">
 
 
-    <p class="text-center md-font">
+  <div class="container-fluid ">
+
+    <div class="offcanvas offcanvas-start d-lg-none d-sm-block d-md-block" tabindex="-1" id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel" style="background-color: #d94d39;">
+      <div class=" offcanvas-header" style="padding-left:20rem;">
+
+        <button type="button" class="btn btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <div class=" reservation ">
+        <div class="offcanvas-body  ">
+
+          <p class="text-center md-font">
+            ASK FOR RESERVATIONS
+          </p>
+          <p class="text-center mb-5  s2-font">
+            AND FEEL FREE TO DROP US A LINE ABOUT EVERYTHING YOU NEED TO KNOW
+          </p>
+          <section class="container ">
+
+            <div class="row d-flex  mb-3 justify-content-center s2-font">
+              <div class="col canvas-style">
+                <label for="inputEmail4" class="form-label">Name</label>
+                <input type="text" class="input-class" id="inputEmail4">
+              </div>
+
+              <div class="col canvas-style ">
+                <label for="inputPassword4" class="form-label col">Email</label>
+                <input type="email" class="input-class" id="inputPassword4" ">
+              </div>
+              <div class=" col canvas-style">
+                <label for=" inputDate" class="form-label ">From</label>
+                <input type="date" class="input-class" id="inputDate" placeholder="From" ">
+              </div>
+    
+    
+              <div class=" col canvas-style">
+                <label for="inputDate2" class="form-label">To</label>
+                <input type="date" class="input-class" id="inputDate2" placeholder="To" style="">
+              </div>
+            </div>
+
+
+            <div class=" row d-flex  mb-3 justify-content-center s2-font">
+
+              <div class="col canvas-style ">
+
+                <label for="input-group-text" for="inputGroupSelect01" class="form-label ">Adults:</label>
+
+                <select class="input-class2 dropdown-toggle" id="inputGroupSelect01">
+                  <option class="dropdown-item" selected>1</option>
+                  <option class="dropdown-item" value="2">2</option>
+                  <option class="dropdown-item" value="3">3</option>
+                  <option class="dropdown-item" value="4">4</option>
+                </select>
+              </div>
+              <div class="col canvas-style">
+                <label for="input-group-text" for="inputGroupSelect01" class="form-label">Children</label>
+                <select class="input-class2 " id="inputGroupSelect01">
+                  <option selected>1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </div>
+              <div class="col canvas-style">
+                <label class="form-label"> Ask everything: </label>
+                <textarea class="textArea"></textarea>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center ">
+              <button type="submit" class="btn "
+                style="width:80rem; font-size:16pt; color:#d94d39; background-color:white; margin-top: 5rem; ">
+                SEND ME REQUEST
+              </button>
+
+            </div>
+        </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container-fluid reservation-block">
+
+
+    <p class="text-center r-font">
       ASK FOR RESERVATIONS
     </p>
-    <p class="text-center mb-5  s2-font">
+
+    <p class="text-center   s2-font  d-none d-lg-block d-md-none">
       AND FEEL FREE TO DROP US A LINE ABOUT EVERYTHING YOU NEED TO KNOW
     </p>
-    <section class="container ">
+    <section class=" container d-flex justify-contenet-center d-none d-lg-block d-md-none"
+      style="padding-left: 4rem; padding-right: 4rem;">
 
-      <div class="row d-flex  mb-3 justify-content-center s2-font">
+      <div class=" row d-flex mb-3 justify-content-center s2-font">
         <div class="col res-style">
           <label for="inputEmail4" class="form-label">Name</label>
           <input type="text" class="input-class" id="inputEmail4">
@@ -213,15 +302,15 @@
         <div class="col res-style ">
           <label for="inputPassword4" class="form-label col">Email</label>
           <input type="email" class="input-class" id="inputPassword4" ">
-          </div>
-          <div class=" col res-style">
-          <label for=" inputDate" class="form-label ">From</label>
+            </div>
+            <div class=" col res-style">
+          <label for=" inputDate" class="form-label ">From:</label>
           <input type="date" class="input-class" id="inputDate" placeholder="From" ">
-          </div>
-
-
-          <div class=" col res-style">
-          <label for="inputDate2" class="form-label">To</label>
+            </div>
+  
+  
+            <div class=" col res-style">
+          <label for="inputDate2" class="form-label">To:</label>
           <input type="date" class="input-class" id="inputDate2" placeholder="To" style="">
         </div>
       </div>
@@ -255,17 +344,14 @@
       </div>
       <div class="d-flex justify-content-center ">
         <button type="submit" class="btn "
-          style="width:80rem; font-size:16pt; color:#d94d39; background-color:white; margin-top: 5rem; ">
+          style="width:85rem;  color:#d94d39; background-color:white; margin-top: 5rem; font-size: 20pt;">
           SEND ME REQUEST
         </button>
 
       </div>
   </div>
   </section>
-
-
   </div>
-
 
   </div>
 
@@ -280,16 +366,20 @@
         RECEIVE THE LATEST NEWS AND PROMOTION, STRAIGHT TO YOUR MAILBOX
       </div>
     </div>
-    <div class="row justify-content-center">
-      <div class="col-md-8 ">
+    <div class="container" style="padding-left: 4rem; padding-right: 4rem;">
+      <div class="row  row-cols-1 row-cols-lg-2  justify-content-center text-center">
+        <div class="col-lg-8 ">
 
-        <input type="email" id="for" class="form-control mb-3 s-font" placeholder="YOUR EMAIL HERE" />
+          <input type="email" id="for" class="form-control mb-3 s-font " style="font-size: 20pt; "
+            placeholder="YOUR EMAIL HERE" />
 
-      </div>
-      <div class="col-auto">
-        <button type="submit" class="btn s-font" style=" color:white; border:solid white;background-color:transparent;">
-          REGISTER ME NOW
-        </button>
+        </div>
+        <div class="col-lg-4 ">
+          <button type="submit" class="btn s-font"
+            style=" color:white; border:solid white;background-color:transparent; font-size:20pt;">
+            REGISTER ME NOW
+          </button>
+        </div>
       </div>
     </div>
   </div>

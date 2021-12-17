@@ -1,6 +1,9 @@
 #color {
   color: white; }
 
+.r-font {
+  font-size: 40pt; }
+
 .max-font {
   font-size: 60pt;
   padding-top: 240px; }
@@ -39,9 +42,9 @@
   transition: opacity .15s ease; }
 
 #down-item {
-  background-color: lightgray;
   color: black; }
   #down-item:hover {
+    background-color: lightgray;
     color: #d94d39; }
 
 .slash {
@@ -94,6 +97,11 @@
   border-bottom: solid white 1px;
   height: 3rem;
   margin-right: 1rem; }
+
+.canvas-style {
+  border-bottom: solid white 1px;
+  margin: 0rem 0rem 1rem 1rem;
+  height: 2rem; }
 
 .textArea {
   width: 43.5rem;
@@ -150,32 +158,36 @@
   background-image: url("../img/hand.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   float: left;
   width: 660px;
   height: 665px; }
   #image1:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hand.png");
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom; }
 
 #image2 {
   position: relative;
   background-image: url("../img/couple.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 670px;
-  height: 665px;
-  width: 660px; }
+  background-size: 690px;
+  width: 660px;
+  height: 665px; }
   #image2:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/couple.png");
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    background-position: bottom; }
 
 #image3 {
   position: relative;
   background-image: url("../img/rosabed.gif");
   background-repeat: no-repeat;
-  background-size: 80rem;
+  background-size: 160rem;
+  background-position: center;
   height: 665px;
   width: 660px; }
   #image3:hover {
@@ -185,7 +197,7 @@
 
 .square {
   position: absolute;
-  margin: 12rem 0 0rem 12rem;
+  margin: 12rem 8rem;
   width: 265.95px;
   height: 265.95px;
   display: flex;
@@ -214,6 +226,12 @@
   padding-top: 10rem;
   background-color: #d94d39;
   height: 55rem;
+  color: white; }
+
+.reservation-block {
+  padding-top: 10rem;
+  background-color: #d94d39;
+  height: 55rem;
   color: white;
   visibility: visible !important; }
 
@@ -233,8 +251,12 @@
   color: white; }
 
 @media (max-width: 480px) {
+  .center-text {
+    text-align: center; }
   #color {
     color: black; }
+  .r-font {
+    font-size: 30pt; }
   .max-font {
     padding-top: 120px;
     font-size: 30pt; }
@@ -273,9 +295,14 @@
   .reservation {
     height: 570px;
     padding-top: 2rem; }
+  .reservation-block {
+    height: 450px;
+    padding-top: 10rem; }
   .perfect {
     height: 480px;
-    padding-top: 100px; }
+    padding-top: 100px; } }
+
+@media (max-width: 480px) {
   .square {
     margin: 8rem 0 0rem 5rem; }
   #image1 {
