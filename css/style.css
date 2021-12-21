@@ -127,14 +127,14 @@
 #menu-container {
   display: block; }
 
-#flower {
+.flower {
   display: block;
   height: 840px;
   background: linear-gradient(rgba(0, 0, 0, 0.564), rgba(0, 0, 0, 0.5)), url("../img/Rosa.gif");
   background-size: cover;
   z-index: -1; }
 
-#strawberry {
+.strawberry {
   height: 840px;
   background: linear-gradient(rgba(0, 0, 0, 0.564), rgba(0, 0, 0, 0.5)), url("../img/strawberry.gif");
   background-position: bottom;
@@ -142,79 +142,84 @@
   z-index: -1; }
 
 @media (max-width: 480px) {
-  #flower {
+  .flower {
     background-size: 80rem;
     background-position: center;
     height: 450px; } }
 
 @media (max-width: 480px) {
-  #strawberry {
+  .strawberry {
     background-size: 80rem;
     background-position: right;
     height: 450px; } }
 
-#image1 {
+.image1 {
   position: relative;
   background-image: url("../img/hand.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
   float: left;
-  width: 660px;
+  width: 100%;
   height: 665px; }
-  #image1:hover {
+  .image1:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hand.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom; }
 
-#image2 {
+.image2 {
   position: relative;
   background-image: url("../img/couple.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 690px;
-  width: 660px;
+  width: 100%;
   height: 665px; }
-  #image2:hover {
+  .image2:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/couple.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom; }
 
-#image3 {
+.image3 {
   position: relative;
   background-image: url("../img/rosabed.gif");
   background-repeat: no-repeat;
   background-size: 160rem;
   background-position: center;
   height: 665px;
-  width: 660px; }
-  #image3:hover {
+  width: 100%; }
+  .image3:hover {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/rosabed.gif");
     background-repeat: no-repeat;
     background-size: cover; }
 
 .square {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #3f3f3f;
   position: absolute;
-  margin: 12rem 8rem;
-  width: 265.95px;
-  height: 265.95px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffffe0;
+  width: 260px;
+  height: 260px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
-  background-color: white; }
+  color: black; }
 
-#image1:hover .square {
+.image1:hover .square {
   background-color: #d94d39;
   color: white; }
 
-#image2:hover .square {
+.image2:hover .square {
   background-color: #d94d39;
   color: white; }
 
-#image3:hover .square {
+.image3:hover .square {
   background-color: #d94d39;
   color: white; }
 
@@ -303,19 +308,17 @@
     padding-top: 100px; } }
 
 @media (max-width: 480px) {
-  .square {
-    margin: 8rem 0 0rem 5rem; }
-  #image1 {
-    width: 412px;
+  .image1 {
+    width: 100%;
     height: 478px;
     background-size: cover;
     background-position: center; }
-  #image2 {
-    width: 412px;
+  .image2 {
+    width: 100%;
     height: 478px;
     background-position: center;
     background-size: 670px; }
-  #image3 {
-    width: 412px;
+  .image3 {
+    width: 100%;
     height: 478px;
     background-size: cover; } }
