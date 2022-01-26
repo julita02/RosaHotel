@@ -1,9 +1,6 @@
 #color {
   color: white; }
 
-.r-font {
-  font-size: 40pt; }
-
 .max-font {
   font-size: 60pt;
   padding-top: 240px; }
@@ -123,6 +120,9 @@
   width: 6.75rem;
   border-bottom: 2px solid #d94d39;
   margin: auto; }
+
+.canvas-style {
+  border-style: 1rem solid white; }
 
 #menu-container {
   display: block; }
@@ -254,6 +254,9 @@
   background-color: #ffffff;
   height: 850px;
   color: white; }
+
+.background-color-orange {
+  background-color: #d94d39; }
 
 @media (max-width: 480px) {
   .center-text {

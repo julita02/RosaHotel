@@ -4,20 +4,13 @@
 color: white;
 }
 
-.r-font{
-  font-size: 40pt;
-}
-
 .max-font{
   font-size:60pt;
  padding-top: 240px;
-
 }  
-
 .mid-font{
   font-size: 40pt;
   margin-bottom: 240px;
-
 }
  .min-font{
    font-size:16pt;
@@ -149,5 +142,12 @@ transition: opacity .15s ease;
       margin:auto;   
       
       }
+
+      .canvas-style{
+        border-style: 1rem solid white;
+      }
+
+      
+      
 
     
