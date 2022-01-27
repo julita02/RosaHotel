@@ -1,94 +1,76 @@
 @media (max-width: 480px) {
-  .center-text{
-    text-align: center;
-  }
-
-  
   
   
   #color{
     color: black;
               
     }
-    .r-font{
-      font-size: 30pt;
+    .slideWindow{
+      font-size:24pt;
+     padding-top: 130px;
+    }  
+    .slideFont{
+      font-size: 20pt;
+      margin-bottom: 40px;
+
     }
-    .max-font {
-      padding-top: 120px;
-      
-      font-size:30pt;}
-      .l-font {         
-        font-size:30pt;}
-
-                .md-font{
+     .infoFooter{
+       font-size:14pt;
+       margin: auto;
+     }
+     .res-font{
+      font-size:40pt;
+     }
+    .md-font{
           font-size:20pt;}
-
-    .mid-font{
-      margin-bottom: 120px;
-      font-size:20pt;}
-
-      .min-font{
-        font-size:12pt;
-      }
+  
       .s-font{
-        font-size:16pt;
+        font-size:14pt;
     
-      }  
-
-      .s2-font{
-        font-size:12pt;      
-       }
-      
-      .xs-font{
-        font-size:12pt;
-      }
-
-      .square-font{
-        font-size:22pt;
-     
-      }
+      }     
    
-      .res-style{
-        height: 2rem;                  
-        }
-
         .textArea{
           width: 20.5rem;
         height: 5px;
       }
       
-     } 
+     }             
+         
             
-    @media (max-width: 480px) {  
-     .boat {                   
-     padding-top: 50px; 
-     padding-bottom: 100px;
-     height:450px}        
-              }
-        
-            
-    @media (max-width: 480px) {  
-   .footer-block{                   
-      height: 450px;}      
+    @media (max-width: 480px) { 
       
-    
-      .reservation {                   
-        height: 570px;
-        padding-top: 2rem;
+      .boat {                   
+        padding-top: 50px; 
+        padding-bottom: 100px;
+        height:550px} 
         
-      }
+        .reservation-block{
+          height: 550px;
+        }
 
-      .reservation-block{                   
-        height: 450px;
-        padding-top: 10rem;
+        .perfect{
+          padding-top: 50px; 
+        padding-bottom: 100px;
+        height:550px
+                  
+          
+        }
+        .perfect-font{
+          font-size: 30pt;
+        }
         
-      }
+        .logo-bottom{
+          width:5rem;
+          height:8rem;
+         
+          margin:auto;
+        }
 
-    .perfect {                   
-    height: 480px;
-    padding-top: 100px;}        
+       }
+
+         
        
-    }
+    
     @media (max-width: 480px) { 
     
       .image1 {
@@ -112,6 +94,29 @@
         }
             
         }
+        @media (max-width: 821px) {  
+
+          .perfect{
+            height:650px;     
+            padding-top: 150px;
+            
+          }
+          .reservation-block{
+            height: 650px;
+          }
+          .s-font{
+            font-size:14pt;
+          
+           }   
+           .reservation{
+            padding-top: 0rem;
+           height: fit-content;
+              
+           }    
+
+            
+        }
+        
 
         
         

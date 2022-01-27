@@ -24,15 +24,15 @@
 </head>
 
 <body style="font-family: 'Arvo';">
-  <header class="container-auto">
+  <header class="header">
 
     <nav class="navbar fixed-top position-absolute  navbar-expand-lg ">
 
       <div class="container-fluid ">
 
         <div class="col">
-          <img src="img/RosaHotelLogo.png" class="logo d-none d-lg-block  d-md-block" alt="">
-          <img src="img/RosaHotel.png" class="logo-mobile d-block d-sm-block d-md-none" alt="">
+          <img src="img/RosaHotelLogo.png" class="logo d-none d-md-none d-lg-block" alt="">
+          <img src="img/RosaHotel.png" class=" d-block d-lg-none d-sm-block d-md-block" alt="">
         </div>
 
         <a class="d-lg-none nav-link" style="color:white;" data-bs-toggle="offcanvas" href="#offcanvasWithBackdrop"
@@ -42,7 +42,7 @@
 
 
 
-        <a class="nav-link d-sm-block d-md-none" style="color:white;" data-bs-toggle="offcanvas"
+        <a class="nav-link d-sm-block d-md-block d-lg-none" style="color:white;" data-bs-toggle="offcanvas"
           href="#offcanvasExamplee" role="button" aria-controls="offcanvasExamplee">
           Reservations
         </a>
@@ -116,12 +116,8 @@
               <div class="accordion-body text-light text-center  border border-light background-color-orange">EAT</div>
               <div class="accordion-body text-light text-center  border border-light background-color-orange">SEA</div>
             </div>
-
-
           </div>
-
         </div>
-
     </aside>
 
     <div id="demo" class="carousel slide postion-relative" data-bs-ride="carousel">
@@ -132,11 +128,11 @@
           <div class="flower">
             <div class="container  justify-content-center ">
               <div class="col text-center  justify-content-center ">
-                <p class=" text-center max-font" style=" color: white;">EVERYONE'S DIFFERENT,OUR ROOMS TOO.
+                <p class=" text-center slideWindow" style=" color: white;">EVERYONE'S DIFFERENT,OUR ROOMS TOO.
                 </p>
-                <div class="line"></div>
 
-                <p class="  text-center p-2 mid-font" style=" color: white;"><strong>HOPE YOU ARE STILL
+
+                <p class="  text-center p-2 slideFont" style=" color: white;"><strong>HOPE YOU ARE STILL
                     AVAILABLE</strong></p>
               </div>
             </div>
@@ -146,9 +142,9 @@
           <div class="strawberry">
             <div class="container  justify-content-center ">
               <div class="col text-center">
-                <p class=" text-center max-font" style=" color: white;">WHAT DOES SUMMER TASTES LIKE</p>
-                <div class="line"></div>
-                <p class=" text-center p-2 mid-font" style=" color: white;"><strong>FIND AT ROSA HOTEL</strong></p>
+                <p class=" text-center slideWindow" style=" color: white;">WHAT DOES SUMMER TASTES LIKE</p>
+
+                <p class=" text-center p-2 slideFont" style=" color: white;"><strong>FIND AT ROSA HOTEL</strong></p>
               </div>
             </div>
           </div>
@@ -208,192 +204,175 @@
 
     <div class="row ">
 
-      <div class="col-lg-4 col-md-4 col-sm-1 gallery-item " style="padding: 0; overflow: hidden;">
-        <div class="image1">
-          <div class=" square text-center">
-            Where <br>The magic <br>Happens
-          </div>
-
+      <div class=" col-lg-4 col-md-4  gallery-item " style="padding: 0; overflow: hidden;">
+        <div class="d-block image1">
+          <div class=" square text-center"> Where <br>The magic <br>Happens </div>
         </div>
-
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-1  gallery-item  " style="padding: 0;overflow: hidden;">
-        <div class="image2">
-          <div class=" square text-center">
-            Holidays <br>As they
-            was
-
-          </div>
+      <div class=" d-block col-lg-4 col-md-4   gallery-item  " style="padding: 0;overflow: hidden;">
+        <div class=" d-block image2">
+          <div class=" square text-center">Holidays <br>As they was</div>
         </div>
-
       </div>
-      <div class="col-lg-4 col-md-4 col-sm-1   gallery-item " style="padding: 0;overflow: hidden;">
-        <div class="image3">
-          <div class=" square text-center">
-            Sea spirit <br>Everywhere
+
+      <div class="col-lg-4 col-md-4    gallery-item " style="padding: 0;overflow: hidden;">
+        <div class=" d-block image3">
+          <div class=" square text-center"> Sea spirit <br>Everywhere</div>
+        </div>
+      </div>
+
+
+      <div class="perfect">
+        <div class=" row d-flex justify-content-center">
+
+          <div><img src="img/RosaHotelLogo2.png" class="logo-bottom" alt=""></div>
+          <div class="text-center  perfect-font" style="color:#d94d39 ">
+            THE PERFECT STAY, WHATEVER YOU WANT
+          </div>
+          <div class="text-center d-none d-lg-block d-md-none" style="width:70rem;">
+            <p class="text-secondary" style="text-transform: uppercase;font-size: 12pt;">Situated at only <mark>100
+                meters from the beach</mark>, the hotel disposes of private beach with sunshades and sunloungers that
+              <mark>are
+                exclusively reserved</mark> for the clients.
+              <br>For the sun tan or for work, <br>for a concert or a journey through,<br>for a meeting or for
+              running,<br>
+              for <mark>a trip to venice</mark> of for shopping..
+            </p>
           </div>
         </div>
+
+        <button class="come-box mb-4 d-none d-lg-block d-md-none  d-sm-none">
+          COME IN AND RELAX
+        </button>
       </div>
     </div>
 
 
 
-    <div class="perfect">
-      <div class=" row d-flex justify-content-center">
-        <div class="">
-          <img src="img/RosaHotelLogo2.png" class="logo-bottom" alt="">
+    <div class="container-fluid ">
+      <div class="offcanvas offcanvas-end d-lg-none d-sm-block d-md-block" tabindex="-1" id="offcanvasExamplee"
+        aria-labelledby="offcanvasExampleLabel" style="background-color: #d94d39;">
+        <div class=" offcanvas-header" style="padding-left:25rem;">
+
+          <button type="button" class="btn btn-close text-reset" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
         </div>
-        <div class="text-center mb-3 md-font" style="color:#d94d39 ">
-          THE PERFECT STAY, WHATEVER YOU WANT
-        </div>
-        <div class="text-center d-none d-lg-block d-md-none" style="width:70rem;">
-          <p class="text-secondary" style="text-transform: uppercase;font-size: 16pt;">Situated at only <mark>100
-              meters from the beach</mark>, the hotel disposes of private beach with sunshades and sunloungers that
-            <mark>are
-              exclusively reserved</mark> for the clients.
-            <br>For the sun tan or for work, <br>for a concert or a jouney through,<br>for a meeting or for
-            running,<br>
-            for <mark>a trip to venice</mark> of for shopping..
-          </p>
-        </div>
-      </div>
 
-      <div class=" come-box mb-4 d-none d-lg-block d-md-none  d-sm-none">
-        <p class="text-center mt-2" style="font-size:16pt;"> COME IN AND RELAX </p>
-      </div>
-    </div>
+        <div class=" reservation ">
+          <div class="offcanvas-body  ">
 
-  </div>
+            <p class="text-center md-font">
+              ASK FOR RESERVATIONS
+            </p>
+            <p class="text-center mb-5  s-font">
+              AND FEEL FREE TO DROP US A LINE ABOUT EVERYTHING YOU NEED TO KNOW
+            </p>
+            <section class="container ">
 
+              <div class="row d-flex  mb-3 justify-content-center s-font">
+                <div class="col canvas-style">
+                  <label for="inputEmail4" class="form-label">Name</label>
+                  <input type="text" class="inputReservation" id="inputEmail4">
+                </div>
 
-
-  <div class="container-fluid ">
-
-    <div class="offcanvas offcanvas-start d-lg-none d-sm-block d-md-block" tabindex="-1" id="offcanvasExamplee"
-      aria-labelledby="offcanvasExampleLabel" style="background-color: #d94d39;">
-      <div class=" offcanvas-header" style="padding-left:20rem;">
-
-        <button type="button" class="btn btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-
-      <div class=" reservation ">
-        <div class="offcanvas-body  ">
-
-          <p class="text-center md-font">
-            ASK FOR RESERVATIONS
-          </p>
-          <p class="text-center mb-5  s2-font">
-            AND FEEL FREE TO DROP US A LINE ABOUT EVERYTHING YOU NEED TO KNOW
-          </p>
-          <section class="container ">
-
-            <div class="row d-flex  mb-3 justify-content-center s2-font">
-              <div class="col canvas-style">
-                <label for="inputEmail4" class="form-label">Name</label>
-                <input type="text" class="input-class" id="inputEmail4">
-              </div>
-
-              <div class="col canvas-style ">
-                <label for="inputPassword4" class="form-label col">Email</label>
-                <input type="email" class="input-class" id="inputPassword4" ">
+                <div class="col canvas-style ">
+                  <label for="inputPassword4" class="form-label col">Email</label>
+                  <input type="email" class="inputReservation" id="inputPassword4" ">
               </div>
               <div class=" col canvas-style">
-                <label for=" inputDate" class="form-label ">From</label>
-                <input type="date" class="input-class" id="inputDate" placeholder="From" ">
+                  <label for=" inputDate" class="form-label ">From</label>
+                  <input type="date" class="inputReservation" id="inputDate" placeholder="From" ">
               </div>
     
     
               <div class=" col canvas-style">
-                <label for="inputDate2" class="form-label">To</label>
-                <input type="date" class="input-class" id="inputDate2" placeholder="To" style="">
+                  <label for="inputDate2" class="form-label">To</label>
+                  <input type="date" class="inputReservation" id="inputDate2" placeholder="To" style="">
+                </div>
               </div>
-            </div>
 
 
-            <div class=" row d-flex  mb-3 justify-content-center s2-font">
+              <div class=" row d-flex  mb-3 justify-content-center s-font">
 
-              <div class="col canvas-style ">
+                <div class="col canvas-style ">
 
-                <label for="input-group-text" for="inputGroupSelect01" class="form-label ">Adults:</label>
+                  <label for="input-group-text" for="inputGroupSelect01" class="form-label ">Adults:</label>
 
-                <select class="input-class2 dropdown-toggle" id="inputGroupSelect01">
-                  <option class="dropdown-item" selected>1</option>
-                  <option class="dropdown-item" value="2">2</option>
-                  <option class="dropdown-item" value="3">3</option>
-                  <option class="dropdown-item" value="4">4</option>
-                </select>
+                  <select class="inputReservation2 dropdown-toggle" id="inputGroupSelect01">
+                    <option class="dropdown-item" selected>1</option>
+                    <option class="dropdown-item" value="2">2</option>
+                    <option class="dropdown-item" value="3">3</option>
+                    <option class="dropdown-item" value="4">4</option>
+                  </select>
+                </div>
+                <div class="col canvas-style">
+                  <label for="input-group-text" for="inputGroupSelect01" class="form-label">Children</label>
+                  <select class="inputReservation2 " id="inputGroupSelect01">
+                    <option selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                  </select>
+                </div>
+
               </div>
-              <div class="col canvas-style">
-                <label for="input-group-text" for="inputGroupSelect01" class="form-label">Children</label>
-                <select class="input-class2 " id="inputGroupSelect01">
-                  <option selected>1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                </select>
-              </div>
-              <div class="col canvas-style">
-                <label class="form-label"> Ask everything: </label>
-                <textarea class="textArea"></textarea>
-              </div>
-            </div>
-            <div class="d-flex justify-content-center ">
-              <button type="submit" class="btn "
-                style="width:80rem; font-size:16pt; color:#d94d39; background-color:white; margin-top: 5rem; ">
-                SEND ME REQUEST
-              </button>
+              <div class="d-flex justify-content-center ">
+                <button type="submit" class="btn "
+                  style="width:80rem; font-size:16pt; color:#d94d39; background-color:white; margin-top: 5rem; ">
+                  SEND ME REQUEST
+                </button>
 
-            </div>
+              </div>
+          </div>
+          </section>
         </div>
-        </section>
       </div>
     </div>
   </div>
-
 
 
   <div class="container-fluid reservation-block">
 
 
-    <p class="text-center r-font">
+    <p class="text-center res-font">
       ASK FOR RESERVATIONS
     </p>
 
-    <p class="text-center   s2-font  d-none d-lg-block d-md-none">
+    <p class="text-center   s-font  d-none d-lg-block d-md-none">
       AND FEEL FREE TO DROP US A LINE ABOUT EVERYTHING YOU NEED TO KNOW
     </p>
     <section class=" container d-flex justify-contenet-center d-none d-lg-block d-md-none"
       style="padding-left: 4rem; padding-right: 4rem;">
 
-      <div class=" row d-flex mb-3 justify-content-center s2-font">
+      <div class=" row d-flex mb-3 justify-content-center s-font">
         <div class="col res-style">
           <label for="inputEmail4" class="form-label">Name</label>
-          <input type="text" class="input-class" id="inputEmail4">
+          <input type="text" class="inputReservation" id="inputEmail4">
         </div>
 
         <div class="col res-style ">
           <label for="inputPassword4" class="form-label col">Email</label>
-          <input type="email" class="input-class" id="inputPassword4" ">
+          <input type="email" class="inputReservation" id="inputPassword4" ">
             </div>
             <div class=" col res-style">
           <label for=" inputDate" class="form-label ">From:</label>
-          <input type="date" class="input-class" id="inputDate" placeholder="From" ">
+          <input type="date" class="inputReservation" id="inputDate" placeholder="From" ">
             </div>
   
   
             <div class=" col res-style">
           <label for="inputDate2" class="form-label">To:</label>
-          <input type="date" class="input-class" id="inputDate2" placeholder="To" style="">
+          <input type="date" class="inputReservation" id="inputDate2" placeholder="To" style="">
         </div>
       </div>
 
 
-      <div class=" row d-flex  mb-3 justify-content-center s2-font">
+      <div class=" row d-flex  mb-3 justify-content-center s-font">
 
         <div class="col res-style ">
 
           <label for="input-group-text" for="inputGroupSelect01" class="form-label ">Adults:</label>
 
-          <select class="input-class2 dropdown-toggle" id="inputGroupSelect01">
+          <select class="inputReservation2 dropdown-toggle" id="inputGroupSelect01">
             <option class="dropdown-item" selected>1</option>
             <option class="dropdown-item" value="2">2</option>
             <option class="dropdown-item" value="3">3</option>
@@ -402,7 +381,7 @@
         </div>
         <div class="col res-style">
           <label for="input-group-text" for="inputGroupSelect01" class="form-label">Children</label>
-          <select class="input-class2 " id="inputGroupSelect01">
+          <select class="inputReservation2 " id="inputGroupSelect01">
             <option selected>1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -428,30 +407,28 @@
 
   <div class="container-fluid boat">
 
-
     <div class="row justify-content-center">
-      <div class=" col-md-12 text-center l-font">
+      <div class=" col-md-12 text-center res-font">
         STAY IN TOUCH
       </div>
 
-      <div class="col-md-9  text-center mb-5" style="font-size:20pt;">
+      <div class="col-md-9  text-center mb-5 s-font">
         RECEIVE THE LATEST NEWS AND PROMOTION, STRAIGHT TO YOUR MAILBOX
       </div>
     </div>
-    <div class="container" style="padding-left: 4rem; padding-right: 4rem;">
-      <div class="row  row-cols-1 row-cols-lg-2  justify-content-center text-center">
-        <div class="col-lg-8 ">
-
-          <input type="email" id="for" class="form-control mb-3 s-font " style="font-size: 20pt; "
+    <div class="container">
+      <div class="row row-cols row-cols-lg-2 row-cols-sm-1 row-cols-auto text-center justify-content-center">
+        <form class="col col-md-8 col-lg-8 ">
+          <input type="email" id="for" class="form-control" style=" width: 100%; margin-top:1rem; font-size: 15pt; "
             placeholder="YOUR EMAIL HERE" />
+        </form>
 
-        </div>
-        <div class="col-lg-4 ">
-          <button type="submit" class="btn s-font"
-            style=" color:white; border:solid white;background-color:transparent; font-size:16pt;">
+        <form class="col col-md-4 col-lg-4 ">
+          <button type="submit" class="btn"
+            style="margin-top:1rem; width: 100%; color:white; border:solid white;background-color:transparent; font-size:12pt;">
             REGISTER ME NOW
           </button>
-        </div>
+        </form>
       </div>
     </div>
   </div>
@@ -467,7 +444,7 @@
 
     <div class="container-fluid">
 
-      <p class="text-center l-font" style="color:#d94d39; margin-top: 5rem;">
+      <p class="text-center md-font" style="color:#d94d39; margin-top: 5rem;">
         ROSA HOTEL GARNI
       </p>
       <div class="text-center">
@@ -478,10 +455,10 @@
 
 
       <div class="container-fluid">
-        <div class="text-secondary row row-cols-auto justify-content-center min-font" style=" margin-top: 2rem;">
+        <div class="text-secondary row row-cols-auto justify-content-center infoFooter" style=" margin-top: 2rem;">
 
 
-          <div class=" col">
+          <div class=" col text-center">
             <address> MAMELI,25-JESOLO LIDO,VENEZIA 30020 ITALIA</address>
           </div>
           <div class="col">
@@ -495,7 +472,7 @@
 
         </div>
 
-        <p class=" text-center text-secondary min-font" style=" margin-bottom: 2rem;">&copy; ROSA HOTEL GARNI
+        <p class=" text-center text-secondary " style=" margin-bottom: 2rem;">&copy; ROSA HOTEL GARNI
           2015-PIVA 02638140273
         </p>
 
@@ -505,7 +482,7 @@
 
 
       <div class="container-fluid ">
-        <div class="row  d-flex justify-content-center min-font" style=" margin-top: 2rem;">
+        <div class="row  d-flex justify-content-center " style=" margin-top: 2rem;">
 
           <div class="col-auto  text-center ">
             <ul class="list-unstyled">
